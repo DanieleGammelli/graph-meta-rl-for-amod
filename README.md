@@ -1,7 +1,7 @@
 # Graph Meta-RL for AMoD
-Official implementation of [Graph Meta-Reinforcement Learning for TransferableAutonomous Mobility-on-Demand](https://arxiv.org/abs/2202.07147)
+Official implementation of [Graph Meta-Reinforcement Learning for Transferable Autonomous Mobility-on-Demand](https://arxiv.org/abs/2202.07147)
 
-<img align="center" src="images/readme_figure.png" width="700"/></td> <br/>
+<img align="center" src="images/readme_figure.png" width="1100"/></td> <br/>
 
 ## Prerequisites
 
@@ -34,9 +34,9 @@ model arguments:
     --max_trials    number of trails to train agent (default: 3k)
     --max_episodes  number of episodes within each trial (default: 10)
     --max_steps     number of steps per episode (default: T=20)
-    --max_test_iter number of repeated experiments at test time
-    --hidden_size   number of hidden states in neural nets
-    --clip          vector magnitude used for gradient clipping
+    --max_test_iter number of repeated experiments
+    --hidden_size   node embedding dimension
+    --clip          vector magnitude used to clip gradient
     --no-cuda       disables CUDA training (default: True, i.e. run on CPU)
     --directory     defines directory where to log files (default: saved_files)
     
@@ -70,7 +70,7 @@ This work was conducted as a joint effort with [Kaidi Yang*](https://sites.googl
 ```
 @inproceedings{GammelliYangEtAl2021,
   author = {Gammelli, D. and Yang, K. and Harrison, J. and Rodrigues, F. and Pereira, F. C. and Pavone, M.},
-  title = {Graph Meta-Reinforcement Learning for TransferableAutonomous Mobility-on-Demand},
+  title = {Graph Meta-Reinforcement Learning for Transferable Autonomous Mobility-on-Demand},
   year = {2022},
   note = {Submitted},
 }
