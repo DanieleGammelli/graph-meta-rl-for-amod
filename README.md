@@ -68,7 +68,7 @@ This work was conducted as a joint effort with [Kaidi Yang*](https://sites.googl
 
 ## Reference
 ```
-@inproceedings{GammelliYangEtAl2021,
+@inproceedings{GammelliYangEtAl2022,
   author = {Gammelli, D. and Yang, K. and Harrison, J. and Rodrigues, F. and Pereira, F. C. and Pavone, M.},
   title = {Graph Meta-Reinforcement Learning for Transferable Autonomous Mobility-on-Demand},
   year = {2022},
